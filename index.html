@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">E</div>
+            <span class="logo-text">Elyse<span>Dev</span></span>
+            <button class="collapse-btn" id="collapseBtn">☰</button>
+        </div>
+
+        <!-- User -->
+        <div class="user-card">
+            <div class="avatar">E</div>
+            <div class="user-info">
+                <h4>Elyse</h4>
+                <p>Administrator</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+
+            <p class="nav-label">MAIN MENU</p>
+
+            <a href="#" class="nav-link active">
+                <span class="nav-icon">▦</span>
+                <span class="nav-text">Dashboard</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">◫</span>
+                <span class="nav-text">Analytics</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">▤</span>
+                <span class="nav-text">Projects</span>
+                <span class="badge">5</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">♧</span>
+                <span class="nav-text">Messages</span>
+                <span class="notification-dot"></span>
+            </a>
+
+            <p class="nav-label">MANAGEMENT</p>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">♙</span>
+                <span class="nav-text">Users</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">▧</span>
+                <span class="nav-text">Files</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">◷</span>
+                <span class="nav-text">Calendar</span>
+            </a>
+
+            <p class="nav-label">PREFERENCES</p>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">⚙</span>
+                <span class="nav-text">Settings</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <span class="nav-icon">?</span>
+                <span class="nav-text">Help Center</span>
+            </a>
+
+        </nav>
+
+        <!-- Bottom -->
+        <div class="sidebar-bottom">
+            <button class="theme-btn" id="themeBtn">
+                <span>◐</span>
+                <span class="nav-text">Switch Theme</span>
+            </button>
+
+            <a href="#" class="nav-link logout">
+                <span class="nav-icon">⇥</span>
+                <span class="nav-text">Logout</span>
+            </a>
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+
+            <div>
+                <h2 id="pageTitle">Dashboard</h2>
+                <p>Welcome back, Elyse!</p>
+            </div>
+
+            <div class="topbar-right">
+                <button class="notification">♧</button>
+                <div class="avatar">E</div>
+            </div>
+        </header>
+
+        <section class="content">
+
+            <div class="welcome">
+                <h1>Welcome back, Elyse 👋</h1>
+                <p>Here is what's happening with your workspace today.</p>
+            </div>
+
+            <div class="stats">
+
+                <div class="stat-card">
+                    <span>Total Projects</span>
+                    <h2>24</h2>
+                    <p>↗ 12% this month</p>
+                </div>
+
+                <div class="stat-card">
+                    <span>Total Users</span>
+                    <h2>1,240</h2>
+                    <p>↗ 8% this month</p>
+                </div>
+
+                <div class="stat-card">
+                    <span>Messages</span>
+                    <h2>86</h2>
+                    <p>↗ 15% this month</p>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+                <h3>Recent Activity</h3>
+                <p>Your workspace is ready. Select an item from the sidebar to navigate.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
